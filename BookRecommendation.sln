@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookRecommendation", "BookRecommendation\BookRecommendation.csproj", "{DD830B0A-80D3-4A64-A6C1-F4F1A53062A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BookRecommendation", "BookRecommendation\BookRecommendation.csproj", "{DD830B0A-80D3-4A64-A6C1-F4F1A53062A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookRecommendation.Core", "BookRecommendation.Core\BookRecommendation.Core.csproj", "{84E690BF-65CB-4FFE-AF8E-DFB05295D8DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookRecommendation.Infrastructure", "BookRecommendation.Infrastructure\BookRecommendation.Infrastructure.csproj", "{A2227B5A-DCC9-47DC-9717-ABE24B05D47D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{DD830B0A-80D3-4A64-A6C1-F4F1A53062A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD830B0A-80D3-4A64-A6C1-F4F1A53062A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD830B0A-80D3-4A64-A6C1-F4F1A53062A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84E690BF-65CB-4FFE-AF8E-DFB05295D8DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84E690BF-65CB-4FFE-AF8E-DFB05295D8DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84E690BF-65CB-4FFE-AF8E-DFB05295D8DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84E690BF-65CB-4FFE-AF8E-DFB05295D8DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2227B5A-DCC9-47DC-9717-ABE24B05D47D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2227B5A-DCC9-47DC-9717-ABE24B05D47D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2227B5A-DCC9-47DC-9717-ABE24B05D47D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2227B5A-DCC9-47DC-9717-ABE24B05D47D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,4 @@
-using BookRecommendation.Data;
+using BookRecommendation.Infrastructure.Data;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
